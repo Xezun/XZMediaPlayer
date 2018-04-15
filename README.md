@@ -1,17 +1,17 @@
-# XZTheme
+# XZMediaPlayer
 
 [![CI Status](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/mlibai/XZKit)
 [![Version](https://img.shields.io/badge/Version-2.0.0-blue.svg?style=flat)](http://cocoapods.org/pods/XZKit)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](http://cocoapods.org/pods/XZKit)
 [![Platform](https://img.shields.io/badge/Platform-iOS-yellow.svg)](http://cocoapods.org/pods/XZKit)
 
-XZTheme 是 XZKit 组件，目前处于初步开发阶段，该组件的主要目的是为 iOS App 提供统一的主题管理机制。
+XZMediaPlayer 是 XZKit 组件，目前处于初步开发阶段，该组件的主要目的是为 iOS App 提供原生、简单、高效的视频播放器。
 
 ## 开发计划：
 
-- 阶段 1: 实现通过样式标识符自动应用样式的功能。
-- 阶段 2: 实现标识符的复用、样式的复用。
-- 阶段 3: 实现 CSS 式的样式支持。
+- 阶段 1: 实现原生视频播放，全屏窗口播放，自定义控制 UI 。
+- 阶段 2: 实现缓存、列队播放。
+- 阶段 3: 实现音频播放，尝试集成 ffmpeg 。
 
 ## 例子
 
@@ -24,7 +24,7 @@ XZTheme 是 XZKit 组件，目前处于初步开发阶段，该组件的主要�
 
 
 ```ruby
-pod "XZKit/Theme"
+pod "XZKit/MediaPlayer"
 ```
 
 ## 组件
